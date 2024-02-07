@@ -1,0 +1,74 @@
+h1 {
+    text-align: center;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: navy;
+}
+.header > div {
+
+  padding: 10px 70px 10px 70px;
+  font-size: 30px;
+}
+
+h2 {
+    text-align: center;
+
+}
+a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+ul {
+  
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(172, 192, 194);
+  }
+  
+  .flex-container > div {
+    background-color: #93939387;
+    text-decoration: none;
+    margin: 10px 50px 10px 45px;
+    padding: 10px 30px 10px 25px;
+    font-family: Coors;
+    font-size: 30px;
+  }
+  body {
+    background-color: rgb(172, 192, 194);
+  }
+  main{
+    margin: auto;
+  }
+  #realrule {
+    margin: 20px 100px 20px 100px;
+  }
+
+  ol{
+    text-decoration-thickness: bold ;
+  }
+  
+  @font-face {
+    font-family: Coors;
+    src: url(assets/Coors\ Script\ Regular.ttf);
+    font-weight: regular;
+  }
+  img { 
+    width: 100%; 
+  }
+  .video {
+    display: flex;
+    justify-content: center;
+  }
+  .video > div {
+    background-color: #93939387;
+    margin: 10px 50px 10px 45px;
+    padding: 10px
+  }
